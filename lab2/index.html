@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, React" />
+    <meta name="description" content="The second lab work" />
+    <meta name="author" content="Nepotachev Ivan" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nepotachev I. D. IA-32, Var 12, Lab 2</title>
+  </head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+    }
+
+    td {
+      border: 2px solid black;
+      padding: 15px;
+    }
+
+    tr:first-child {
+      background-color: #128f8f;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    tr:nth-child(2) {
+      background-color: #f5f512;
+      color: #000;
+      cursor: pointer;
+    }
+
+    tr:first-child:hover td {
+      background-color: #f5f512;
+      color: #000;
+    }
+
+    tr:nth-child(2):hover td {
+      background-color: #228f8f;
+      color: #fff;
+    }
+  </style>
+  <body>
+    <h2>Var 12</h2>
+
+    <table>
+      <tr>
+        <td rowspan="3">IA-32</td>
+        <td>Nepotachev</td>
+        <td rowspan="3">Ivan</td>
+        <td>Dmytrovich</td>
+      </tr>
+      <tr>
+        <td>Lab 2</td>
+        <td>Var 12</td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <div class="container">
+      <div class="flag">
+        <div class="vertical"></div>
+        <div class="horizontal"></div>
+      </div>
+
+      <div class="flag-transform">
+        <div class="bar"></div>
+        <div class="bar rotate"></div>
+      </div>
+    </div>
+  </body>
+</html>
