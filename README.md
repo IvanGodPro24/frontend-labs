@@ -8,5 +8,5 @@
 - [Lab 4](https://ivangodpro24.github.io/frontend-labs/lab4/)
 - [Lab 5](https://ivangodpro24.github.io/frontend-labs/lab5/)
 - [Lab 6](https://ivangodpro24.github.io/frontend-labs/lab6/)
-- [Lab 7](https://ivangodpro24.github.io/frontend-labs/lab7/)
+- [Lab 7](https://frontend-labs-three.vercel.app/)
 - [Lab 8](https://ivangodpro24.github.io/frontend-labs/lab8/)
